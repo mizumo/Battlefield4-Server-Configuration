@@ -1,0 +1,32 @@
+# This file is to be editable by the server administrator.
+# It can contain any remote administration commands that are to be run during game server startup.
+
+# Your choices here are offical, ranked, unranked, private
+# # Offical servers will not allow you to change many configuration settings,
+# # but will get quick play players
+# # Ranked servers will allow you to change more configuration settings then
+# # offical servers, but will not get quick play players
+# # Unranked/private will allow you to change even more configuration settings
+vars.serverType "Ranked"
+vars.preset "NORMAL"
+
+vars.serverName "XTD Server Rush"
+admin.password "xxxxxxxx"
+vars.gamePassword ""
+vars.servermessage "Wellcome To XTD Clan Server!"
+vars.serverDescription "Wellcome To XTD Clan Server!"
+punkBuster.activate
+
+# If you add any spectator slots, these will subtract from the number of
+# player slots available for normal players
+vars.maxSpectators "0"
+
+# Enabling commanders will result in your slot count being reduced by 2 (one
+# slot will be subtracted for each commander)
+vars.commander "true"
+
+reservedSlotsList.aggressiveJoin "true"
+#vars.gameModeCounter "55" #Only Conquest Large
+vars.gameModeCounter "100" #Rush mode & Obliteration
+
+vars.maxPlayers "32"
