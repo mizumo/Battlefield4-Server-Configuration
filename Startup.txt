@@ -10,7 +10,7 @@
 vars.serverType "Ranked"
 vars.preset "NORMAL"
 
-vars.serverName "XTD Server Rush"
+vars.serverName "XTD Server"
 admin.password "xxxxxxxx"
 vars.gamePassword ""
 vars.servermessage "Wellcome To XTD Clan Server!"
@@ -26,7 +26,8 @@ vars.maxSpectators "0"
 vars.commander "true"
 
 reservedSlotsList.aggressiveJoin "true"
+
 #vars.gameModeCounter "55" #Only Conquest Large
 vars.gameModeCounter "100" #Rush mode & Obliteration
 
-vars.maxPlayers "32"
+vars.maxPlayers "64"
