@@ -23,7 +23,7 @@ vars.maxSpectators "0"
 
 # Enabling commanders will result in your slot count being reduced by 2 (one
 # slot will be subtracted for each commander)
-vars.commander "false"
+vars.commander "true" #When set "false",it's the "Custom" state.
 
 reservedSlotsList.aggressiveJoin "true"
 
